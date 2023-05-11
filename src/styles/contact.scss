@@ -1,0 +1,83 @@
+@import '../styles/variables.scss';
+
+.contact-section {
+    .container-section {
+        width: 100%;
+        height: auto;
+        background-color: $secondary-color;
+        padding: 5% 7% 5% 7%;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            .cont-header {
+                .title-section {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    font-family: $noto-serif;
+                }
+
+                .part2 {
+                    font-style: italic;
+                }
+
+                .subtitle-section {
+                    font-family: $noto-serif;
+                    color: $gray-color;
+                }
+            }            
+        }
+        .content-data {
+            width: 100%;
+            height: auto;
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            .contact-card {
+                width: 300px;
+                height: auto;
+                margin-bottom: 15px;
+                .title-card {
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contact-section {
+        .container-section {
+            .content {
+                width: 100%;
+                flex-direction: row;
+                align-items: center;
+                .cont-header {
+                    margin-right: 15px;
+                    align-items: center;
+                    .title-section {
+                        font-size: 3rem;
+                    }
+                }
+            }
+            .content-data {
+                width: 100%;
+                height: auto;
+                display: flex;
+                margin-top: 30px;
+    
+                .contact-card {
+                    width: 500px;
+                    height: auto;
+                    margin-bottom: 15px;
+                    .title-card {
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

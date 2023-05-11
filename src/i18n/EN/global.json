@@ -1,0 +1,53 @@
+{
+    "header": {
+        "link0":"Home",
+        "link1":"Purpose",
+        "link2":"Values",
+        "link3":"Interest",
+        "link4":"Contact"
+    },
+    "hero": {
+        "title":"The breadth of mind and heart",
+        "subtitle": "is the greatest agent of change"
+    },
+    "purpose": {
+        "titlepart1":"Pur",
+        "titlepart2":"pose",
+        "text": "Collaborating in projects that contribute to the coherent development of humanity from a harmonious and educational perspective."
+    },
+    "values": {
+        "titlepart1":"Val",
+        "titlepart2":"ues",
+        "word1": "Cooperation",
+        "word2": "Expansion",
+        "word3": "Detachment",
+        "word4": "Impeccability",
+        "word5": "Innovation",
+        "word6": "Intuition",
+        "word7": "Respect"
+    },
+    "interest": {
+        "titlepart1":"Inte",
+        "titlepart2":"rest"
+    },
+    "cardInfo": {
+        "title1": "HOLISTIC VIEW OF THE PLANET",
+        "text1": "Humans, like Fauna and Flora are One with Planet. Thinking, Feeling and Acting Interconnected, is the only way to Thrive",
+        "title2": "NEW SCIENCES",
+        "text2": "New discoveries in Neuro, Quantum, Radiesthesia, Cymatics, , Biogeometry and Noetic Sciences",
+        "title3": "HOLISTIC HEALING",
+        "text3": "Healing of the physical and energetic bodies, through the combination of Ancestral, New Energy and Modern Science",
+        "title4": "NEW SOCIAL MODELS",
+        "text4": "Innovation in Educational, Financial and Social Governance models"
+    },
+    "contact": {
+        "titlepart1":"Get in",
+        "titlepart2":"touch",
+        "subtitle1": "The breadth of mind and heart",
+        "subtitle2": "is the greatest agent of change",
+        "title1": "ADDRESS",
+        "title1b": "AMPLITUD FOUNDATION",
+        "title2": "PHONE",
+        "title3": "EMAIL"
+    }
+}

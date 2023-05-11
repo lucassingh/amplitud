@@ -1,0 +1,49 @@
+@import '../styles/variables.scss';
+
+.interest-section {
+    padding: 5% 7% 10% 7%;
+    .container-section {
+        width: 100%;
+        height: auto;        
+        border-top: 1px solid #000;
+        
+        .content {
+            width: 100%;
+            padding-top: 23%;
+            padding-bottom: 21%;
+            .title-section {
+                font-size: 2rem;
+                font-weight: bold;
+                font-family: $noto-serif;
+            }
+            .part2 {
+                font-style: italic;
+            }
+            .cont-cards {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .interest-section {    
+        .container-section {
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+            .content {
+                width: 100%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                .title-section {
+                    font-size: 3rem;
+                }
+                .cont-cards {
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+}

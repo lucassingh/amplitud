@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+.card-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+
+    .card-body {
+        padding-top:10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        .title-card {
+            font-weight: bold;
+        }
+        .text-card {
+            color: #6E6E6E
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .card-container {
+        padding-right: 15px;
+    }
+}

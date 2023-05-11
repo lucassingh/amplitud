@@ -1,0 +1,58 @@
+@import '../styles/variables.scss';
+
+.purpose-section {
+    padding: 5% 7% 10% 7%;
+    height: 100vh;
+
+    .container-section {
+        width: 100%;
+        border-top: 1px solid #000;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        .content {
+            width: 100%;
+            padding-top: 23%;
+            padding-bottom: 21%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .title-section {
+                font-size: 2rem;
+                font-weight: bold;
+                font-family: $noto-serif;
+            }
+            .part2 {
+                font-style: italic;
+            }
+
+            .text {
+                font-family: $noto-serif;
+                font-size: 1.4rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .purpose-section {    
+        .container-section {
+            .content {
+                .title-section {
+                    font-size: 3rem;
+                }
+                width: 100%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                .text {
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+

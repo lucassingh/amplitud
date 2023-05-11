@@ -1,0 +1,53 @@
+{
+    "header": {
+        "link0":"Inicio",
+        "link1":"Próposito",
+        "link2":"Valores",
+        "link3":"Intereses",
+        "link4":"Contacto"
+    },
+    "hero": {
+        "title":"La amplitud de mente y corazón",
+        "subtitle": "es el mayor agente de cambio"
+    },
+    "purpose": {
+        "titlepart1":"Propó",
+        "titlepart2":"sito",
+        "text": "Colaborar en proyectos que contribuyan al desarrollo coherente de la humanidad desde una perspectiva armónica y educativa."
+    },
+    "values": {
+        "titlepart1":"Valo",
+        "titlepart2":"res",
+        "word1": "Cooperación",
+        "word2": "Expansión",
+        "word3": "Desapego",
+        "word4": "Impecabilidad",
+        "word5": "Innovación",
+        "word6": "Intuición",
+        "word7": "Respeto"
+    },
+    "interest": {
+        "titlepart1":"Inte",
+        "titlepart2":"reses"
+    },
+    "cardInfo": {
+        "title1": "VISIÓN HOLÍSTICA DEL PLANETA",
+        "text1": "Los humanos, como la fauna y la flora, somos uno con el planeta. Pensar, sentir y actuar interconectados es la única forma de prosperar.",
+        "title2": "NUEVAS CIENCIAS",
+        "text2": "Nuevos descubrimientos en neurociencia, cuántica, radiestesia, cimática, biogeometría y ciencias noéticas.",
+        "title3": "SANACIÓN HOLÍSTICA",
+        "text3": "Sanación de los cuerpos físico y energético, a través de la combinación de la Ciencia Ancestral, la Nueva Energía y la Ciencia Moderna.",
+        "title4": "NUEVOS MODELOS SOCIALES",
+        "text4": "Innovación en los modelos de gobernanza educativa, financiera y social"
+    },
+    "contact": {
+        "titlepart1":"Póngase en",
+        "titlepart2":"contacto",
+        "subtitle1": "La amplitud de mente y corazón",
+        "subtitle2": "es el mayor agente de cambio",
+        "title1": "DIRECCIÓN",
+        "title1b": "FUNDACIÓN AMPLITUD",
+        "title2": "TELÉFONO",
+        "title3": "CORREO"
+    }
+}

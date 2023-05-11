@@ -1,0 +1,76 @@
+@import '../styles/variables.scss';
+
+.values-section {
+    padding: 5% 7% 10% 7%;
+    height: 100vh;
+
+    .container-section {
+        width: 100%;
+        border-top: 1px solid #000;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        .content {
+            width: 100%;
+            padding-top: 23%;
+            display: flex;
+            align-items: center;
+            justify-content: center;            
+            .img {
+                width: 90%;
+            }
+            .content-text {
+                width: 100%;                
+                .title-section {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    font-family: $noto-serif;
+                }
+                .part2 {
+                    font-style: italic;
+                }
+                .cont-items {
+                    display: flex;
+                    flex-direction: column;
+                    height: auto;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #000;
+                    .item {
+                        font-family: $noto-serif;
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .values-section {    
+        .container-section {
+            display: flex;
+            flex-direction: row;
+            .content {
+                width: 100%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                .img {
+                    width: 100%;
+                }
+                .content-text {
+                    padding-left: 10%;
+                    .title-section {
+                        font-size: 3rem;                        
+                    }
+                    .cont-items {
+                        .item {
+                            font-size: 2.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

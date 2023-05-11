@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.footer-section {
+    width: 100%;
+    background-color: #212121;
+    padding: 1.2rem;
+    border-bottom: 1px solid #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        font-weight: bold;
+        color: $gray-color;
+        font-size: 10px;
+    }
+}
